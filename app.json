@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/log/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7691fa",
+    "navigationBarTitleText": "班级空间",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#7691fa",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的班级",
+        "iconPath": "common/img/myclass.png",
+        "selectedIconPath": "common/img/myclass.png"
+      },
+      {
+        "pagePath": "pages/log/index",
+        "text": "班级空间",
+        "iconPath": "common/img/classSpace.png",
+        "selectedIconPath": "common/img/classSpace.png"
+      },
+      {
+        "pagePath": "pages/log/index",
+        "text": "个人中心",
+        "iconPath": "common/img/userCenter.png",
+        "selectedIconPath": "common/img/userCenter.png"
+      }
+    ]
+  }
+ 
+}

@@ -1,0 +1,82 @@
+<view class='header'>
+  <view class='pictures'>
+    <text>8相册</text>
+    <text>88照片</text>
+    <text>3视频</text>
+  </view>
+  <view class='nav-list'>
+    <navigator>
+      <image src='/common/img/clock.png'></image>
+      <text>打卡</text>
+    </navigator>
+    <navigator>
+      <image src='/common/img/flower.png'></image>
+      <text>红花榜</text>
+    </navigator>
+    <navigator>
+      <image src='/common/img/photo.png'></image>
+      <text>班级相册</text>
+    </navigator>
+  </view>
+  <view class='getPrize'>
+    <view class='hasStudent'>周红花榜前三学生</view>
+    <view class='disStudent'>未有学生获得红花，赶紧发动态获得小红花吧~</view>
+  </view>
+</view>
+<view class='message iconfont icon-iconfontjiantou2'>
+  <image src='/common/img/zhaopian.png'></image>
+  <text class='txt'>2条新消息</text>
+  <!-- <text class='right'>></text> -->
+</view>
+<view class='person'>
+  <view class='person-info-outer clear'>
+    <view class='person-avatar'>
+      <image src='/common/img/avatar.png'></image>
+    </view>
+    <view class='person-info'>
+      <text class='name'>李熊猫</text>
+      <text class='time'>14:27</text>
+    </view>
+    <view class='operation'>
+      <image src='/common/img/redflower.png'></image>
+      <text class='num'>×5</text>
+      <text class='del'>删除</text>
+    </view>
+  </view>
+  <view class='con-txt-outer'>
+    <view class='con-txt'>
+      上周趣味运动会的照片,同学和家长们积极参与,促进了亲子间的交流~
+    </view>
+    <view class='img-list clear'>
+      <image src='/common/img/sports1.png'></image>
+      <image src='/common/img/sports2.png'></image>
+      <image src='/common/img/sports3.png'></image>
+    </view>
+    <view class='operation-btns clear'>
+      <view>
+        <image src='/common/img/aixin.png'></image>
+        <text>3</text>
+      </view>
+      <view>
+        <image src='/common/img/weixin.png'></image>
+        <text>6</text>
+      </view>
+      <view>
+        <image src='/common/img/hua.png'></image>
+        <text>红花</text>
+      </view>
+      <view>
+        <image src='/common/img/share.png'></image>
+        <text>转发</text>
+      </view>
+    </view>
+    <view class='input-text clear'>
+      <input class='txt' type='text' value='评论一下吧~'></input>
+      <input class='sub' type='submit' value='发表'></input>
+    </view>
+  </view>
+
+</view>
+<view class='camera'>
+<image src='/common/img/xiangji.png'></image>
+</view>
